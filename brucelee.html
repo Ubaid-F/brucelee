@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Displaying Images on a Web Page</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 30px;
+        }
+        figure {
+            margin: 0;
+        }
+        figure img {
+            height: 200px;
+            width: auto;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        figcaption {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2><b>Displaying Images on a Web Page</b></h2>
+    <div class="image-container">
+        <figure>
+            <img src="passport_photo.png" alt="Passport Photo">
+            <figcaption>Passport Photo</figcaption>
+        </figure>
+        <figure>
+            <img src="brucelee.png" alt="Bruce Lee">
+            <figcaption>Bruce Lee</figcaption>
+        </figure>
+        <figure>
+            <img src="starWars.jpg" alt="Star Wars">
+            <figcaption>Star Wars</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
